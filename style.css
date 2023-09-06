@@ -1,0 +1,344 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styling */
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: #26335D;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #26335D;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Navigation styling */
+.hat_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.BrandName {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.JOIN_US_BUTTON {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login {
+    font-size: 14px;
+}
+
+.Layout3{
+    width: 1440px;
+    height: 822px;
+    left: 195px;
+    padding: 160px 0 160 0px;
+    gap: 80px;
+
+}
+
+/* Style for the main container */
+.container2 {
+width: 1440px;
+height: 859px;
+padding: 0px 195px 0px 195px;
+background-color: #26335D;
+}
+
+/* Style for rows and columns */
+.row3 {
+    width: 692px;
+    height: 134px;
+    background-color: #26335D; /* Add background color */
+}
+
+.row4 {
+    width: 687px;
+    height: 288px;
+    gap: 30px;
+   
+}
+
+.col-md-4 {
+    width: 328px;
+    height: 288px;
+}
+
+.main-content {
+    width: 691px;
+    height: 134px;
+    gap: 10px;
+    background-color: #26335D;
+}
+
+.section-tag {
+    width: 113px;
+    height: 24px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-align: center;
+   background:  #8D5CF6;
+} 
+
+.section-title {
+    width: 447px;
+    height: 50px;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    background-color: #26335D;
+}
+
+.section-paragraph {
+    width: 469px;
+    height: 40px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    background-color: #26335D;
+}
+
+/* Style for cards */
+.card {
+    width: 328px;
+    height: 288px;
+    padding: 35px 40px 35px 40px;
+    gap: 30px;
+    background: #FFFFFF;
+    border: 1px solid #000;
+}
+
+.cool-icon-119,
+.cool-icon-122 {
+    width: 72px;
+    height: 72px;
+}
+
+.feature-title {
+    width: 149px;
+    height: 24px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    background: #252B42;
+}
+.fixed-height_fixed-width {
+    width: 50px;
+    height: 2px;
+    background: #E74040;
+}
+
+.feature-description {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    background: #737373;
+}
+
+.FAQ {
+    text-align: center;
+}
+
+.h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+   max-width: 1060px;
+    
+}
+
+.item {
+    width:  333px;
+    height: 151px;
+    padding: 25px;
+    border-radius: 9px;
+    background: #FFFFFF;
+
+    
+}
+
+footer {
+    background-color: #26335D;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.Layout4{
+    width: 1440px;
+    height: 824px;
+    padding: 0px 195px 0px 195px;
+    gap: 40px;
+    background-color: #26335D;
+    
+}
+.container3{
+    width: 1,050px;
+    height: 824px;
+    left: 195px;
+    padding: 160px 0px 160px 0px;
+    display: flex;
+    flex-direction: row;
+}
+.row4{
+    width: 1,045px;
+    height: 504px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.tumb_con{
+    width: 556px;
+    height: 504px;
+
+}
+.Frame-clap{
+    width: 35.04127883911133px;
+    height: 35.04127883911133px;
+    top: 370.337890625px;
+    left: 411.152587890625px;
+    padding: 7.66162109375px 7.193866729736328px 7.379657745361328px 7.847412109375px;
+    border-radius: 28.170440673828125px;
+    background-color: #FFFFFF 75%;
+}
+.Frame_mark{
+    width: 35.04127883911133px;
+    height: 35.04127883911133px;
+    top: 267.962890625px;
+    left: 55.2431640625px;
+    padding: 5.037109375px 7.284442901611328px 8.004169464111328px 4.7568359375px;
+    border-radius: 6.8708391189575195px;
+    background-color: #FFFFFF 75%;
+}
+.Frame-face{
+    width: 556px;
+    height: 471.6112976074219px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding-bottom: 1px;
+}
+.OurCourse{
+    width: 381px;
+    height: 296px;
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+
+}
+.Line{
+    width: 94px;
+    height: 7px;
+    background: #E74040;
+}
+.Popular{
+    width: 256px;
+    height: 100px;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    background-color: #26335D;
+
+}
+.paragraph_sec{
+    width: 351px;
+    height: 60px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    background-color: #26335D;
+
+}
+
+.paragraph_section{
+    flex-direction: row;
+display: flex;
+}
+.Learn_more{
+    width: 83px;
+    height: 24px;
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+background-color: #26335D;
+flex-direction: row;
+display: flex;
+
+
+}
+.icon_left{
+    width: 9px;
+    height: 24px;
+    padding: 0px 0.3834266662597656px 0px 0px;
+    background-color: #26335D;
+}
+.Poligon{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+}
