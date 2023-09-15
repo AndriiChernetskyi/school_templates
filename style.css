@@ -342,3 +342,63 @@ display: flex;
     position: relative;
     display: flex;
 }
+.dog{
+    color: var(--text-color, #252B42);
+
+    /* h5 */
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.1px;
+}
+.scale{
+    color: var(--second-text-color, #737373);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.2px;
+}
+.burger_menu {
+    display: none;
+}
+/*
+325 - 768 - mobile
+768 - 1024 - table
+1024 - 1440 - natbook
+1440 > desktop
+*/
+@media screen and (max-width: 1440px) {
+    .hat_container nav {
+        display: block;
+    }
+    .container,
+    .container2,
+    .Layout3,
+    .Layout4 {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .hat_container nav {
+        display: none;
+    }
+    .burger_menu {
+        display: block;
+    }
+    .grid-container1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .row4 {
+        display: block;
+    }
+    .item {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    
+}
